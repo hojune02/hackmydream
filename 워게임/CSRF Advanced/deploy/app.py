@@ -129,3 +129,5 @@ def change_password():
         return '<script>alert("Done");history.go(-1);</script>'
 
 app.run(host="0.0.0.0", port=8000)
+
+# <img src="/change_password?pw=admin&csrftoken=7505b9c72ab4aa94b1a4ed7b207b67fb">
