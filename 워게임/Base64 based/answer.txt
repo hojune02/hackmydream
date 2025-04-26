@@ -1,0 +1,4 @@
+Go to this URL:
+http://host3.dreamhack.games:19996?file=Zm%20xhZy5wa%20HA=
+
+ZmxhZy5waHA= is the base64-encoded message of 'flag.php', and inserting %20 within the message allows for inserting 'flag.php' while bypassing the filter. This is possible because base64_decode() ignores any space character, whereas stripos() only looks for contiguous sequence of the specified pattern.
